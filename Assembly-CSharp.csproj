@@ -37,6 +37,8 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\BirdScript.cs" />
+     <Compile Include="Assets\PipeMoveScript.cs" />
+     <Compile Include="Assets\PipeSpawner.cs" />
     <Reference Include="UnityEngine">
         <HintPath>G:\2021.3.23f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
