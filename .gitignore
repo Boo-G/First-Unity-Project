@@ -1,4 +1,6 @@
 # Files to ignore
-.Logs
-.Packages
-.UserSettings
+Logs/
+Packages/
+UserSettings/
+2D Practicce.sln
+Assembly-CSharp.csproj
