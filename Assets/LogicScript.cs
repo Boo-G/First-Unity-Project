@@ -9,13 +9,19 @@ public class LogicScript : MonoBehaviour
     public int playerScore;
     public Text scoreText;
     public GameObject gameOverScreen;
+    public AudioSource dingSFX;
 
     // ability to run from unitiy
     [ContextMenu("Increase Score")]
 
+    void Start(){
+        dingSFX = GetComponent<AudioSource>();
+    }
+
     public void addScore(int scoreToAdd){
         playerScore += scoreToAdd;
         scoreText.text = playerScore.ToString();
+        dingSFX.Play();
     }
 
     public void restartGame(){

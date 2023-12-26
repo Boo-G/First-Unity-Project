@@ -6,3 +6,5 @@ Library/
 Temp/
 2D Practicce.sln
 Assembly-CSharp.csproj
+*.meta
+.*
